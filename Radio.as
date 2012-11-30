@@ -1,0 +1,1 @@
+﻿package {		public class Radio implements IAudible {		public function Radio() {			trace("radio added");		}				public function turnOn():void {			trace("radio on");		}				public function playSelection(preset:int):void {			trace("radio selection play: channel preset", preset);		}				public function turnOff():void {			trace("radio off");		}	}}

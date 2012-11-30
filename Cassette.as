@@ -1,0 +1,1 @@
+﻿package {		public class Cassette implements IAudible {		public function Cassette() {			trace("cd player added");		}				public function turnOn():void {					}				public function playSelection(preset:int):void {					}				public function turnOff():void {				}	}}
